@@ -1,0 +1,123 @@
+        }
+
+        /* Stile per il contenitore principale */
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px); /* Effetto al passaggio del mouse */
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); /* Ombra più intensa */
+        }
+
+        /* Stile per il titolo */
+        h1 {
+            color: #FF0000;
+            font-size: 3rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+            text-transform: uppercase; /* Titolo con lettere maiuscole */
+        }
+
+        /* Stile per i paragrafi */
+        p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        /* Stile per i link */
+        a {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(145deg, #1d9bf0, #187bcd);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin: 10px 0;
+            box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2); /* Ombra sottile per i link */
+        }
+
+        a:hover {
+            background: linear-gradient(145deg, #187bcd, #1a629a);
+            transform: translateY(-3px); /* Leggera animazione al passaggio del mouse */
+            box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3); /* Ombra più intensa */
+        }
+
+        a:active {
+            transform: translateY(2px); /* Effetto "cliccabile" al click */
+        }
+
+        /* Stile per il footer */
+        footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #777;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        footer a {
+            color: #1d9bf0;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        footer a:hover {
+            color: #187bcd;
+        }
+
+        /* Media query per dispositivi mobili */
+        @media (max-width: 768px) {
+            body {
+                padding-top: 30px; /* Riduce lo spazio superiore per dispositivi mobili */
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2.2rem; /* Riduce la dimensione del titolo */
+            }
+
+            p {
+                font-size: 1rem; /* Riduce la dimensione del paragrafo */
+            }
+
+            a {
+                padding: 12px 25px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Benvenuti nel mio sito!</h1>
+        <p>Esplora i link qui sotto per scoprire i miei progetti svolti:</p>
+        <div>
+            <!-- Link dinamici che puoi aggiungere facilmente -->
+            <a href="Pagina1.html">Vai alla Pagina 1</a>
+            
+        </div>
+    </div>
+
+    <footer>
+        <p>Creato da: Francesco Guglielmelli 4'A Tele  </p>
+        © 2025 - Diritti riservati a Francesco Guglielmelli, 4'A Tele istituto Maxwell di Nichelino (TO)
+    </footer>
+</body>
+</html>
